@@ -1,0 +1,5 @@
+interface ICustomerDal {
+    fun Add() {
+
+    }
+}
