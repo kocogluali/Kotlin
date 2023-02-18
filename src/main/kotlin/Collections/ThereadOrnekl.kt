@@ -5,7 +5,7 @@ fun main(){
     birinciThread.start()
     val ikinnciThread = Thread(İkinciThread())
     ikinnciThread.start()
-    
+
     for(i in 900..999){
         println("Main Thread:$i")
         Thread.sleep(100)
